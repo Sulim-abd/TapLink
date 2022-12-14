@@ -1,3 +1,31 @@
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
+}
+body {
+  background-color: #F4F4F4;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+.page-wrapper {
+  max-width: 390px;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.header {
+  color: #FFFFFF;
+  padding: 35px 30px 155px;
+  background: linear-gradient(0deg, rgba(19, 15, 73, 0.2), rgba(19, 15, 73, 0.2)), url('../img/header-bg.png') no-repeat center / cover;
+  border-radius: 0px 0px 65px 65px;
+}
+.hello {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.hello-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
